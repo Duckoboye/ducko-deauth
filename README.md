@@ -3,6 +3,9 @@ This is a simple program(script?) to send WiFi deauth frames to the specified MA
 Primarily depends on Scapy. Linux-exclusive as I'm too lazy to figure out how to make it cross-platform.
 Built it to understand how deauth attacks work.
 
+## Disclaimer
+Don't be stupid. Deauth attacks are classified as DoS-attacks, which means using them on a target that hasn't consented to their use is illegal in most places. Use at your own risk.
+
 ### dependencies
 * Scapy [https://scapy.net/]
 * iwconfig
