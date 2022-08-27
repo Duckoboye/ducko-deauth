@@ -1,9 +1,15 @@
 # Ducko-DeAuth
 This is a simple program(script?) to send WiFi deauth frames to the specified MAC. Built for IEEE 802.11.
-Primarily depends on scapy. Linux-exclusive as I'm too lazy to figure out how to make it cross-platform.
+Primarily depends on Scapy. Linux-exclusive as I'm too lazy to figure out how to make it cross-platform.
 Built it to understand how deauth attacks work.
 
-# usage
+### dependencies
+* Scapy [https://scapy.net/]
+* iwconfig
+* ifconfig  
+*Both iw and if are usually installed by default*
+
+### usage
 deauth.py [-h] [-i INTERFACE] [-c COUNT] [-b BSSID] [-t TARGET_MAC] [-e INTERVAL] [-m] [-f]
 
 optional arguments:
